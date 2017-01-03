@@ -131,24 +131,24 @@
                 this.getElement("getMonthDays6").innerHTML = "2014年6月：" + this.getMonthDays("2014", "6") +"天";
 
                 //获取指定日期所在周是第几周=========================start
-                this.getElement("getHowManyWeeks").innerHTML = "第" + this.getHowManyWeeks("2014", "1", "6") +"周";
+                this.getElement("getHowManyWeeks").innerHTML = "第" + this.getHowManyWeeks("2017", "1", "6") +"周";
 
                 //到指定日期的时间的倒计时=========================================start
-                this.getElement("getCountDown").innerHTML = "2014年2月14日距离现在：" + this.getCountDown("2014", "2", "14") +"天";
+                this.getElement("getCountDown").innerHTML = "2017年2月14日距离现在：" + this.getCountDown("2017", "2", "14") +"天";
 
                 //节日倒计时====================start
-                this.getElement("LabourDay").innerHTML = "劳动节距离现在：" + this.getCountDown("2014", "5", "1") +"天";
-                this.getElement("NationalDay").innerHTML = "国庆节距离现在：" + this.getCountDown("2014", "10", "1") +"天";
+                this.getElement("LabourDay").innerHTML = "劳动节距离现在：" + this.getCountDown("2017", "5", "1") +"天";
+                this.getElement("NationalDay").innerHTML = "国庆节距离现在：" + this.getCountDown("2017", "10", "1") +"天";
 
                 //比较两个日期的差====================start
-                this.getElement("getDateDifferenceValue").innerHTML = "2014年6月3日与2014年6月4日差值" + this.getDateDifferenceValue(
+                this.getElement("getDateDifferenceValue").innerHTML = "2017年6月3日与2017年6月4日差值" + this.getDateDifferenceValue(
                         {
-                            "Y":"2014",
+                            "Y":"2017",
                             "M":"6",
                             "D":"3"
                         },
                         {
-                            "Y":"2014",
+                            "Y":"2017",
                             "M":"6",
                             "D":"4"
                         }) + "秒";
@@ -186,7 +186,7 @@
                 this.getElement("strDate").innerHTML = "2014-02-19 15:56:01转换为日期格式：" + this.strDate("2014-02-19 15:56:01");
 
                 //判断日期是闰年还是平年===================start
-                this.getElement("getYearType1").innerHTML = "2014年为" + this.getYearType("2014");
+                this.getElement("getYearType1").innerHTML = "2017年为" + this.getYearType("2017");
                 this.getElement("getYearType2").innerHTML = "2000年为" + this.getYearType("2000");
                 this.getElement("getYearType3").innerHTML = "2011年为" + this.getYearType("2011");
 
